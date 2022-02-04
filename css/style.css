@@ -1,0 +1,189 @@
+body {
+  background-color: #F7ECDE;
+}
+hr {
+
+  border-style: none;
+  border-top: 5px dotted #FBF8F1;
+
+  width: 10%;
+}
+
+
+img {
+  border-radius: 20px;
+  height: 10%;
+  width: 10%;
+
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #54BAB9;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px;
+}
+.button2 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #54BAB9;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+h1{
+  font-family:fantasy, papyrus;
+  color: #54BAB9;
+
+}
+h2{
+  font-family:fantasy, papyrus;
+  color: #54BAB9;
+}
+h3{
+  color: #54BAB9;
+  font-family:fantasy, papyrus;
+}
+p {
+  font-family: cursive, "Lucida Handwriting" ;
+}
+table{
+  font-family: cursive, "Lucida Handwriting" ;
+  width: 50%
+}
+ol{
+  width:5%;
+
+
+  text-align:center;
+  font-family: cursive, "Lucida Handwriting" ;
+}
+li{
+  text-align:center;
+  font-family: cursive, "Lucida Handwriting" ;
+}
+a{
+  font-family: cursive, "Lucida Handwriting" ;
+}
+form{
+  font-family: cursive, "Lucida Handwriting" ;
+}
+th {
+  background-color: #54BAB9;
+  color: white;
+}
+tr {
+  text-align:center;
+}
+
+tr:nth-child(even) {background-color: #E9DAC1;}
+tr:hover {background-color: #C1DEAE;}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email], select {
+
+
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+textarea[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.divparent {
+
+  margin: auto;
+  width: 30%;
+  border: none;
+  padding: 10px;
+}
+.divcontact{
+  ont-family: cursive, "Lucida Handwriting" ;
+}
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+a:link, a:visited {
+  border-radius: 4px;
+  background-color: #54BAB9;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  border-radius: 4px;
+  background-color: #40a09e;
+}
